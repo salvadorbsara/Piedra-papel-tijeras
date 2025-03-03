@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+
+*{
+    background-color: rgb(36, 42, 75);
+    font-family: "Pixelify Sans", serif;
+}
+
+#seleccionar-mascota {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo {
+    color: white;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitulo{
+    font-size: 20px;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta-de-mokepon {
+    width: 120px;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    place-items: center;
+}
+
+.tarjeta-de-mokepon img {
+    width: 80px;
+}
+
+input {
+    display: none;
+}
+
+#boton-mascota {
+    color: rgb(36, 42, 75);
+    background-color: white;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+}
